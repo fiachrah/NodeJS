@@ -1,7 +1,7 @@
 ﻿const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://mongodb5369os:no7sad@danu7.it.nuigalway.ie:8717/mongodb5369');
+mongoose.connect('mongodb login details');
 mongoose.Promise = global.Promise; // Tell Mongoose to use ES6 promises
 mongoose.connection.on('error', (err) => {
   console.error(`${err.message}`);
